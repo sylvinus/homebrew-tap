@@ -4,6 +4,7 @@ class LimaSylvinus < Formula
   url "https://github.com/sylvinus/lima/archive/refs/tags/v2.3.0-sylvinus.1.tar.gz"
   sha256 "2309cecca1fff38ca7d8cf7401bbdcc304012462dcb0c34773e85fc2afc0bf29"
   license "Apache-2.0"
+  version "2.3.0-sylvinus.1"
 
   depends_on "go" => :build
 
