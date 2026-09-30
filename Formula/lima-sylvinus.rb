@@ -1,10 +1,10 @@
 class LimaSylvinus < Formula
   desc "Linux virtual machines, with sshfs.readonlyNames and host deletion relay"
   homepage "https://github.com/sylvinus/lima"
-  url "https://github.com/sylvinus/lima/archive/refs/tags/v2.3.0-sylvinus.1.tar.gz"
-  sha256 "2309cecca1fff38ca7d8cf7401bbdcc304012462dcb0c34773e85fc2afc0bf29"
+  url "https://github.com/sylvinus/lima/archive/refs/tags/v2.3.0-sylvinus.2.tar.gz"
+  sha256 "4bfcaeb4087a746687f0a241152a7f318e805ab78e11d2361bb13be7092a0150"
   license "Apache-2.0"
-  version "2.3.0-sylvinus.1"
+  version "2.3.0-sylvinus.2"
 
   depends_on "go" => :build
 
