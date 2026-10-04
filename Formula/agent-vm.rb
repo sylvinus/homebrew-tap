@@ -1,9 +1,10 @@
 class AgentVm < Formula
   desc "Run AI coding agents in a disposable Linux VM per project"
   homepage "https://www.agent-vm.org/"
-  url "https://github.com/sylvinus/agent-vm/releases/download/v0.2.0/agent-vm-0.2.0.tar.gz"
-  sha256 "787077a51c66578c9d963a5b34c20c294551ec9d6ddc7d26f147aec7451a3958"
+  url "https://github.com/sylvinus/agent-vm/releases/download/v0.2.1/agent-vm-0.2.1.tar.gz"
+  sha256 "6d92fd15bfeef9efedc563d67ed7fac335bf799f635c757beffdb765d54fdae9"
   license "MIT"
+  version "0.2.1"
 
   def install
     libexec.install "agent-vm.sh", "agent-vm.setup.sh", "lib", "runtime.example.sh"
