@@ -2,7 +2,6 @@ class AgentVm < Formula
   desc "Run AI coding agents in a disposable Linux VM per project"
   homepage "https://www.agent-vm.org/"
   license "MIT"
-  version "0.3.0"
 
   on_macos do
     on_arm do
