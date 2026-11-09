@@ -5,23 +5,23 @@ class AgentVm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.0/agent-vm-0.3.0-darwin-arm64.tar.gz"
-      sha256 "282b6233dbccd82c8da77fcc442f0e51b66fb89168ed66006f29f196a28b554c"
+      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.1/agent-vm-0.3.1-darwin-arm64.tar.gz"
+      sha256 "f79c408f47d78d7d58a6509cb92e333f3b0b252af84e4ce4c1436b3e0ca350e6"
     end
     on_intel do
-      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.0/agent-vm-0.3.0-darwin-amd64.tar.gz"
-      sha256 "ab8bdc7e0c0ebd318b2600727d3e032a783ccb8f6622c9b3466b73afec7fe801"
+      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.1/agent-vm-0.3.1-darwin-amd64.tar.gz"
+      sha256 "1a8310a6c469b3e00f2661fac6d6261b49a8a6238df3199134df6deb81022eaa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.0/agent-vm-0.3.0-linux-arm64.tar.gz"
-      sha256 "5f09f63011a756d38b9be9ab4d2eb20695e0cb7376bee02a592010e7100f50c9"
+      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.1/agent-vm-0.3.1-linux-arm64.tar.gz"
+      sha256 "c032a705941c77055ef01f5eefaf083f89343d31ea5f166919a338f2ddf40c94"
     end
     on_intel do
-      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.0/agent-vm-0.3.0-linux-amd64.tar.gz"
-      sha256 "938a9173c6389367f9b7b6f4cd071fd1e45a4f2a6aadd68810938105a17b324c"
+      url "https://github.com/sylvinus/agent-vm/releases/download/v0.3.1/agent-vm-0.3.1-linux-amd64.tar.gz"
+      sha256 "a20e5d7cf5989fd7ad4559159e09fb55ada4a7fab8564b0334ecca4ed9110d3b"
     end
   end
 
